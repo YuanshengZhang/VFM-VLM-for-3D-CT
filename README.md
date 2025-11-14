@@ -7,7 +7,7 @@
 * the overview of metrics employed for evaluating VFM and VLFM;
 
 
-### ** The list of medical VFMs for 3D CT
+** The list of medical VFMs for 3D CT
 
 | Model | Vision Encoder | Pretraining Data | Downstream task | Paper | Code | Year |
 |------|------|------|------|------|------|------|
