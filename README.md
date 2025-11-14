@@ -19,7 +19,7 @@
 ### The list of medical VLFMs for 3D CT
 
 | Model | Vision Encoder | Text Encoder | Pretraining Data | Downstream task | Paper | Code | Year |
-|------|------|------|------|------|------|------|
+|------|------|------|------|------|------|------|------|
 | RadFM | 3D ViT | MedLLaMA-13B | 16M 2D+3D multimodal | diagnosis, visual question answering, report generation | [Wu et al.](https://www.nature.com/articles/s41467-025-62385-7) | [GitHub](https://github.com/chaoyi-wu/RadFM) |2025|
 | M3D | 3D ViT | LLaMA-2 | 120K 3D CT | image-text retrieval, report generation, visual question answering, positioning, and segmentation | [Bai et al.](http://arxiv.org/abs/2404.00578) | [GitHub](https://github.com/BAAIDCAI/M3D) |2024|
 | Merlin | 3D ResNet152 | Clinical-Longfornmer | 14K 3D abdominal CT | zero-shot classification, phenotype classification, and zero-shot cross-modal retrieval, disease prediction, radiology report generation, and 3D segmentation | [Blankemeier et al.](http://arxiv.org/abs/2406.06512) | [GitHub](https://github.com/StanfordMIMI/Merlin) |2024|
@@ -32,4 +32,4 @@
 | Dataset | Anatomical Targets | Image-Text pairs | QA pairs | Paper | Link |
 |------|------|------|------|------|------|
 | CT-ORG | 140 CT scans containing six organ classes: liver, lungs, bladder, kidney, bones and brain | - | - | [Rister et al.]([https://link.springer.com/chapter/10.1007/978-3-030-01364-6_20](https://www.nature.com/articles/s41597-020-00715-8) | [Data](https://www.cancerimagingarchive.net/collection/ct-org/) |
-| CT-RATE | 25,692 non-contrast 3D chest CT scans from 21,304 unique patients | + | + | [Hamamci et al.](http://arxiv.org/abs/2403.17834); [Hamamci et al.](https://link.springer.com/10.1007/978-3-031-72986-7) | [GitHub](https://github.com/ibrahimethemhamamci/CT-CLIP) | [Data](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) |
+| CT-RATE | 25,692 non-contrast 3D chest CT scans from 21,304 unique patients | + | + | [Hamamci et al.](http://arxiv.org/abs/2403.17834); [Hamamci et al.](https://link.springer.com/10.1007/978-3-031-72986-7) | [Data](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) |
