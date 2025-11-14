@@ -7,7 +7,7 @@
 * the overview of metrics employed for evaluating VFM and VLFM;
 
 
-### The list of medical VFMs for 3D CT
+### ** The list of medical VFMs for 3D CT
 
 | Model | Vision Encoder | Pretraining Data | Downstream task | Paper | Code | Year |
 |------|------|------|------|------|------|------|
@@ -57,7 +57,7 @@
 | ROUGE | Recall-Oriented Understudy for Gisting Evaluation | a set of evaluation measures that assess the overlap between a generated summary and a set of reference summaries. | Long medical descriptions. |
 | METEOR | Metric for Evaluation of Translation with Explicit ORdering | a more linguistically informed and recall-focused metric that excels at sentence-level evaluations and captures more flexible language use. an evaluation metric for machine translation that improves over traditional metrics like BLEU by incorporating linguistic features such as synonymy, stemming, and word order, and placing more emphasis on recall to better align with human judgments of translation quality. | machine translation, text summarization, paraphrase detection |
 | BERTScore | BERT similarity score, BERT-F1 score | Semantic similarity using BERT embeddings. It measures the similarity between the generated report and the reference report using contextualized word embeddings provided by the BERT model | Semantic relevance in medical text. |
-| CheXpert Labeler | Rule-based pathology detection. | Chest X-ray report evaluation. |
+| CheXpert Labeler | | Rule-based pathology detection. | Chest X-ray report evaluation. |
 | RadGraph | RadGraph F1 | Graph-based entity-relationship evaluation. an automatic metric that computes the overlap in clinical entities and relations between a model-generated report and a radiologist-generated report | Radiology report accuracy. |
 | RadCliQ | | RadCliQ predicts a radiologist-determined error score from a combination of automated metrics, including BLEU, BERTScore, CheXbert vector similarity, and RadGraph. |
 | Hit Score | | The Hit Score is a specific metric designed for evaluating abnormalities. It compares the model’s prediction with the ground truth. If the model’s prediction matches any abnormality specified in the ground truth, the score is set to 1; otherwise, it is 0. The overall score is then calculated as the average of these individual scores. |
