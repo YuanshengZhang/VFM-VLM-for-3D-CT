@@ -18,5 +18,5 @@
 ### The list of 3D CT Datasets
 
 | Medical Dataset | Anatomical Targets | Image-Text pairs | QA pairs | Paper | Link |
-|------|------|------|------|------|
-| CT-ORG | 140 CT scans containing six organ classes: liver, lungs, bladder, kidney, bones and brain | - | - | [Rister et al.]([https://link.springer.com/chapter/10.1007/978-3-030-01364-6_20](https://www.nature.com/articles/s41597-020-00715-8)) | [GitHub](https://www.cancerimagingarchive.net/collection/ct-org/) |
+|------|------|------|------|------|------|
+| CT-ORG | 140 CT scans containing six organ classes: liver, lungs, bladder, kidney, bones and brain | - | - | [Rister et al.]([https://link.springer.com/chapter/10.1007/978-3-030-01364-6_20](https://www.nature.com/articles/s41597-020-00715-8)) | [Data](https://www.cancerimagingarchive.net/collection/ct-org/) |
