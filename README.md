@@ -1,10 +1,10 @@
 ## VFM and VLFM for 3D CT scans
 
-[VFM and VLFM for 3D CT scans](https://github.com/YuanshengZhang/VFM-VLM-for-3D-CT/) is the comprehensive review that includes:
+[VFM and VLFM for 3D CT scans](https://github.com/YuanshengZhang/VFM-VLM-for-3D-CT/) is a repository that includes:
 
 * the latest publicly available Vision Foundation Models (VFMs) and Vision-Language Foundation Models (VLFMs) specifically designed for 3D Computed Tomography (CT);
 * the latest publicly available 3D CT dataset;
-* the overview of metrics employed for evaluating VFM and VLM;
+* the overview of metrics employed for evaluating VFM and VLFM;
 
 
 ### The list of medical VFMs for 3D CT
