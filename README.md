@@ -7,7 +7,7 @@
 * the overview of metrics employed for evaluating VFM and VLFM;
 
 
-### memo: The list of medical VFMs for 3D CT
+### 📝 The list of medical VFMs for 3D CT
 
 | Model | Vision Encoder | Pretraining Data | Downstream task | Paper | Code | Year |
 |------|------|------|------|------|------|------|
@@ -16,7 +16,7 @@
 | DeSD | 3D ResNet50 | 11K |  | [Ye et al.](https://link.springer.com/chapter/10.1007/978-3-031-16440-8_52) | [GitHub](https://github.com/yeerwen/DeSD) |2022|
 
 
-### memo: The list of medical VLFMs for 3D CT
+### 📝 The list of medical VLFMs for 3D CT
 
 | Model | Vision Encoder | Text Encoder | Pretraining Data | Downstream task | Paper | Code | Year |
 |------|------|------|------|------|------|------|------|
@@ -31,7 +31,7 @@
 | Medical Continual Self-Supervised (MedCoSS) | plain ViT/B | BERT | 356K X-ray from MIMIC-CXR, 10K CT from DeepLesion, 4K MRI from ADNI, 217K Rath from TCGA | claaification, segmentation | [Ye et al.](http://arxiv.org/abs/2311.17597) | [GitHub](https://github.com/yeerwen/MedCoSS) |2025|
 
 
-### memo: The list of 3D CT Datasets
+### 📝 The list of 3D CT Datasets
 
 | Dataset | Anatomical Targets | Image-Text pairs | QA pairs | Paper | Link |
 |------|------|------|------|------|------|
@@ -49,7 +49,7 @@
 | RICORD | 120 Chest CT scans | - | - | [Tsai et al.](https://doi.org/10.1148/radiol.2021203957) | [Data](https://www.cancerimagingarchive.net/collection/midrc-ricord-1a/) |
 
 
-### memo: The list of evaluation metrics of VFM and VLFM
+### 📝 The list of evaluation metrics of VFM and VLFM
 
 | Metrics | Full names | Description | Use Case |
 |------|------|------|------|
